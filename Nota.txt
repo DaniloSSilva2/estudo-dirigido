@@ -1,0 +1,33 @@
+Comandos : 
+
+mkdir estudo-dirigido 
+
+cd estudo-dirigido
+
+npm install --save-dev jest @testing-library/dom @testing-library/jest-dom
+
+npm install --save-dev jest-environment-jsdom
+
+package.json : 
+
+{
+  "name": "estudo-dirigido",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^9.0.0",
+    "@testing-library/jest-dom": "^6.0.0",
+    "jest": "^29.0.0",
+    "jest-environment-jsdom": "^29.0.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  }
+}
+
+Comandos parte II : 
+
+npm test
