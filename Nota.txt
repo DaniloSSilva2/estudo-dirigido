@@ -1,8 +1,8 @@
 Comandos : 
 
-mkdir estudo-dirigido 
+mkdir estudo-dirigido - Para criar a pasta.
 
-cd estudo-dirigido
+cd estudo-dirigido - Acessar a pasta no diretório.
 
 npm install --save-dev jest @testing-library/dom @testing-library/jest-dom
 
@@ -29,5 +29,6 @@ package.json :
 }
 
 Comandos parte II : 
+
 
 npm test
